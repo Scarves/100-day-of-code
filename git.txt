@@ -11,3 +11,17 @@ git log = melihat log aktifitas git
 
 git merge *nama = untuk menggabungkan git
     --test merge dan fix merge
+
+menghapus file bisa dengan 2 cara:
+    1. menghapus file dengan cara biasa, yaitu : klik kanan lalu press delete
+        --setelah itu harus tetap menambahkan git add ke staging area dan git commit  
+    2. git rm *nama = menghapus file dengan git dan akan masuk ke staging area
+        --harus sesuai path
+            #contoh : cd day13/delete-git
+        --harus tetap melakukan commit
+
+git reset = mengembalikan file selangkah kebelakang dari HEAD(tempat saat ini atau commit terakhir) dari branch 
+git reset --hard = mengembalikan dan menghapus file ke commit sebelumnya dari staging area
+git reset --hard HEAD~*jumlah langkah = mengembalikan file beberapa langkah kebelakang dan juga menghapus commit terakhir jadi perubahan yang masukan akan dihapus dari repository dan juga staging area
+
+git branch -D *branchname = menghapus branch
