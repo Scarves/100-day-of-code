@@ -25,3 +25,7 @@ git reset --hard = mengembalikan dan menghapus file ke commit sebelumnya dari st
 git reset --hard HEAD~*jumlah langkah = mengembalikan file beberapa langkah kebelakang dan juga menghapus commit terakhir jadi perubahan yang masukan akan dihapus dari repository dan juga staging area
 
 git branch -D *branchname = menghapus branch
+
+git checkout -- . = mengembalikan semua dari unstaging area ke commit terakhir 
+git reset *filename = mengembalikan file dari staging area ke unstaging area
+git checkout -- *filename = mengembalikan individual file dari unstaging area
