@@ -1,0 +1,10 @@
+git init = memulai membuat repository
+
+git status = melihat file yang belum ditambahkan ke staging area atau yang belum ke track
+
+git add *nama = menabahkan file tertentu ke staging area atau mengtrack file tertentu
+    git add . = menambahkan semua file
+
+git commit -m "*nama" = menambahkan code snapshot ke dalam repository
+
+git log = melihat log aktifitas git
