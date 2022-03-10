@@ -1,0 +1,6 @@
+#hero{
+    height: 800px;
+    background-image: url(/day15/travel-site/places/ocean.jpg);
+    background-position: center;
+    background-size: cover;
+}
