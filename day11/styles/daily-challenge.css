@@ -1,0 +1,57 @@
+/*css selector*/
+main {
+  width: 800px;
+  margin: 200px auto 72px auto;
+  background-color: #9adcff;
+  padding: 24px;
+  border: 5px solid black;
+  border-radius: 5px;
+  box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.4);
+}
+img {
+  /*mengatur besar gambar*/
+  width: 200px;
+  height: 200px;
+  /*buat gambar menjadi bulat*/
+  border-radius: 100px;
+  border: 5px solid black;
+  margin-top: -140px;
+}
+h1 {
+  font-size: 30px;
+  color: #00adb5;
+}
+span {
+  color: #ff8aae;
+}
+
+p {
+  color: #eeeeee;
+}
+a {
+  color: rgb(122, 255, 255);
+}
+/*kalo mouse diatas text maka akan muncul garis bawah*/
+a:hover {
+  color: #9adcff;
+  text-decoration: underline;
+}
+/*id untuk spesifik css*/
+#today-challenge {
+  color: #00adb5;
+  font-weight: bold;
+  font-size: 52px;
+  /*px = a device independen unit, absoulute not relative, 
+    relative = rem/% */
+  margin: 50px;
+}
+
+/* ul {
+  padding: 50px;
+  padding-top: 100px;
+  list-style: none;
+  width: 720px;
+  background-color: #9adcff;
+  margin: -160px auto 0px auto;
+  border: 5px solid black;
+} */

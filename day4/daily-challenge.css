@@ -1,0 +1,27 @@
+/*css selector*/
+h1 {
+  /*css pada element h1*/
+  font-family: "Fira Sans", sans-serif;
+  color: rgb(83, 75, 75);
+}
+p {
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  color: rgb(83, 75, 75);
+}
+a {
+  color: palevioletred;
+  text-decoration: none;
+}
+/*kalo mouse diatas text maka akan muncul garis bawah*/
+a:hover {
+  text-decoration: underline;
+}
+/*id untuk spesifik css*/
+#today-challenge {
+  color: seagreen;
+  font-weight: bold;
+  font-size: 52px;
+  /*px = a device independen unit, absoulute not relative, 
+    relative = rem/% */
+}

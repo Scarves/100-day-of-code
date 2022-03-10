@@ -1,0 +1,23 @@
+/*css selector*/
+body {
+  margin: 50px;
+}
+img {
+  /*mengatur besar gambar*/
+  width: 200px;
+  height: 200px;
+  /*buat gambar menjadi bulat*/
+  border-radius: 100px;
+}
+/*kalo mouse diatas text maka akan muncul garis bawah*/
+a:hover {
+  text-decoration: underline;
+}
+/*id untuk spesifik css*/
+#today-challenge {
+  color: #EEEEEE;
+  font-weight: bold;
+  font-size: 52px;
+  /*px = a device independen unit, absoulute not relative, 
+    relative = rem/% */
+}
