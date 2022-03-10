@@ -8,3 +8,6 @@ git add *nama = menabahkan file tertentu ke staging area atau mengtrack file ter
 git commit -m "*nama" = menambahkan code snapshot ke dalam repository
 
 git log = melihat log aktifitas git
+
+git merge *nama = untuk menggabungkan git
+    --test merge dan fix merge
