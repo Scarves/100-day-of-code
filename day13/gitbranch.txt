@@ -1,0 +1,8 @@
+git branch = 
+untuk mengecek berada dibranch mana kita saat ini
+
+git branch -m *nama =
+untuk mengganti nama branch saat ini
+
+git checkout -b *nama =
+untuk buat branch baru
