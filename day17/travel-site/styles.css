@@ -42,3 +42,13 @@
 #hero-content a:hover{
     background-color: rgb(188, 185, 29);
 }
+#destinations{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 40px;
+}
+.destinations img{
+    height: 200px;
+    
+}
