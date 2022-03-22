@@ -44,13 +44,14 @@
 }
 #highlights {
   padding: 24px;
+  background: linear-gradient(0deg, rgb(227, 255, 253), rgb(202,243,240));
 }
 #highlights h2 {
   text-transform: uppercase;
   text-align: center;
   font-size: 40px;
   color: rgb(59, 65, 64);
-  margin: 24 0;
+  margin: 24px 0;
 }
 #destinations {
   display: flex;
