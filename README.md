@@ -2,7 +2,7 @@ tempat upload hasil latihan dari # 100-day-of-code
 
 catatan :
 
--pake folder untuk setiap harinya,
+-buat folder sampai ke hari 20 untuk dipake setiap hari,
 
 -mulai make git branch dari hari 16,
 
