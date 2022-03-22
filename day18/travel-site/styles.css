@@ -1,6 +1,6 @@
 #hero {
   height: 800px;
-  background-image: url(/day15/travel-site/places/ocean.jpg);
+  background-image: url(/day18/travel-site/places/ocean.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -43,6 +43,9 @@
   background-color: rgb(188, 185, 29);
 }
 #highlights {
+  padding: 24px;
+}
+#highlights h2 {
   text-transform: uppercase;
   text-align: center;
   font-size: 40px;
