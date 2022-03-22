@@ -2,8 +2,18 @@ body {
   background: linear-gradient(30deg, rgb(77, 77, 77), rgb(58, 58, 58));
   color: rgb(68, 68, 68);
 }
+#page-logo a {
+  color: aqua;
+}
 header {
   position: static;
+}
+header a {
+    color: aqua;
+}
+header nav a:hover{
+    background-color: aquamarine;
+    color: gray;
 }
 main ul {
   width: 1200px;
@@ -12,8 +22,8 @@ main ul {
   grid-template-columns: 1fr 1fr;
   gap: 20px 20px;
 }
-li:nth-of-type(3){
-    grid-column: 1 / span 2;
+li:nth-of-type(3) {
+  grid-column: 1 / span 2;
 }
 main li {
   display: flex;
@@ -33,16 +43,19 @@ main li img {
   flex-direction: column;
   justify-content: space-between;
 }
-.actions{
-    text-align: right;
+.item-content h2{
+    margin: 0;
 }
-.actions a{
-    text-decoration: none;
-    padding: 6px;
-    color: rgb(25, 223, 223);
-    border-radius: 5px;
+.actions {
+  text-align: right;
 }
-.actions a:hover{
-    color: aquamarine;
-    background-color: darkslategray;
+.actions a {
+  text-decoration: none;
+  padding: 6px;
+  color: rgb(14, 181, 181);
+  border-radius: 5px;
+}
+.actions a:hover {
+  color: aquamarine;
+  background-color: darkslategray;
 }
