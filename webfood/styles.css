@@ -1,34 +1,78 @@
-#browse-meals {
-  text-align: center;
+body{
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  background-color: rgb(44, 41, 38);
 }
-#browse-meals h1 {
-  color: rgb(255, 153, 0);
+a{
+  text-decoration: none;
 }
-#meals {
+#header-main {
+  height: 80px;
   display: flex;
-  justify-content: center;
-  margin: auto;
-
-
-}
-#meals h2 {
-  color: rgb(36, 36, 36);
+  justify-content: space-between;
   text-align: center;
+  background-color: rgb(29, 27, 24);
+  padding: 0 20px;
+}
+#header-logo a {
   font-size: 24px;
-  background-color: rgb(245, 100, 52);
-  padding: 20px;
-  margin: 0
+  font-weight: bold;
+  color: rgb(238, 164, 80);
+  text-transform: uppercase;
+}
+#header-main ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+#header-main li {
+  margin: 0 16px;
+}
+
+#header-main nav a {
+  color: rgb(185, 131, 31);
+  font-size: 20px;
+}
+
+#header-main nav a:hover {
+  color: rgb(228, 163, 44);
+}
+main h1{
+  text-align: center;
+  color: rgb(238, 164, 44);
+}
+#browse-meals {
+  width: 80%;
+  margin: 50px auto;
+}
+#browse-meals ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin: 0;
+  padding: 0;
 }
 .meal {
-  margin: 0 20px;
+  color: rgb(228, 206, 182);
+  border-radius: 6px;
+  overflow: hidden;
 }
 .meal img {
-  height: 500px;
-  width: 500px;
+  height: 240px;
+  width: 100%;
   object-fit: cover;
-  margin: 0;
 }
-button{
-    background-color: goldenrod;
-    color: white;
+.meal-content {
+  padding: 16px;
+  text-align: center;
+}
+.btn {
+  background-color: rgb(228, 157, 44);
+  color: white;
+  border-radius: 4px;
+  padding: 8px 24px;
+}
+.btn a:hover{
+  background-color: rgb(221, 134, 34);
 }
