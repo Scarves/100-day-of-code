@@ -67,6 +67,10 @@ main h1{
 .meal-content {
   padding: 16px;
   text-align: center;
+  font-size: 200%;
+}
+h2 {
+  font-size: 2rem;
 }
 .btn {
   background-color: rgb(228, 157, 44);
