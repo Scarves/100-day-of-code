@@ -80,3 +80,9 @@ main h1{
 .btn a:hover{
   background-color: rgb(221, 134, 34);
 }
+
+@media (max-width: 768px){
+  #browse-meals ul{
+    grid-template-columns: 100%;
+  }
+}
