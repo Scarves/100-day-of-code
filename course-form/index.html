@@ -23,15 +23,21 @@
           <ul>
             <li>
               <label for="username">Your name</label>
-              <input type="text" name="user-name" id="username" />
+              <input type="text" name="user-name" id="username" required />
             </li>
             <li>
               <label for="useremail">Your email</label>
-              <input type="email" name="user-email" id="useremail" />
+              <input type="email" name="user-email" id="useremail" required />
             </li>
             <li>
               <label for="userpassword">Your password</label>
-              <input type="password" name="user-password" id="userpassword" />
+              <input
+                type="password"
+                name="user-password"
+                id="userpassword"
+                required
+                minlength="7"
+              />
             </li>
           </ul>
         </section>
@@ -41,11 +47,26 @@
           <ul>
             <li>
               <label for="userage">Your age</label>
-              <input type="number" step="1" name="user-age" id="userage" />
+              <input
+                type="number"
+                step="1"
+                name="user-age"
+                id="userage"
+                required
+                min="18"
+                max="100"
+              />
             </li>
             <li>
               <label for="userdate">Your birthdate</label>
-              <input type="date" name="user-date" id="userdate" />
+              <input
+                type="date"
+                name="user-date"
+                id="userdate"
+                required
+                min="1921-01-01"
+                max="2018-01-01"
+              />
             </li>
             <li>
               <label for="favoritecolor">You favorite color?</label>
@@ -77,6 +98,7 @@
                 name="verify"
                 id="verify-text-message"
                 value="text-message"
+                required
               />
               <label for="">Via text message (SMS)</label>
             </li>
@@ -86,6 +108,7 @@
                 name="verify"
                 id="verify-phone"
                 value="phone"
+                required
               />
               <label for="">Via phone call</label>
             </li>
@@ -95,6 +118,7 @@
                 name="verify"
                 id="verify-email"
                 value="email"
+                required
               />
               <label for="">Via an email</label>
             </li>
