@@ -38,12 +38,20 @@ select{
     padding: 0.25rem;
     color: rgb(64, 64, 64);
 }
-
+textarea{
+    resize: none;
+}
 input:focus,
 textarea:focus{
     background-color: rgb(224, 180, 248);
     color: rgb(64, 32, 132);
+    border-color: rgb(32, 8, 64);
 }
+/* input:invalid,
+textarea:invalid{
+    background-color: rgb(255, 224, 224);
+    border-color: rgb(182, 0, 0);
+} */
 
 button{
     display: block;
