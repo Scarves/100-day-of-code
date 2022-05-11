@@ -19,3 +19,10 @@ console.log((10 + 3 - 5 ) * 10);
 
 console.log('Alfi' + ' ' + 'Nurfazri');
 console.log('Alfi' - 'fi');
+
+let userName = 'Alfi';
+console.log(userName.length); //menghitung panjang string
+console.log(userName.toUpperCase()); //mengubah string ke huruf besar semua
+
+let hobbies = ['Sports', 'Cooking'];
+console.log(hobbies.length);
