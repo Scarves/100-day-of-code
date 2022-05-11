@@ -19,3 +19,7 @@ console.log((10 + 3 - 5 ) * 10);
 
 console.log('Alfi' + ' ' + 'Nurfazri');
 console.log('Alfi' - 'fi');
+
+let userName = 'Alfi';
+console.log(userName.length);
+console.log(userName.toUpperCase);
