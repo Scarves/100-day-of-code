@@ -13,8 +13,8 @@ achorElement.href = 'https://google.com';
 
 //mencari DOM dengan memilih HTML element yang sesuai pertama dengan menggunakan css selector atau html element
 //untuk mencari sesuai kondisi
-anchorElement = document.querySelector('external-id');
-anchorElement.href = 'https://academind.com';
+anchorElement = document.querySelector('p a');
+anchorElement.href = 'https://facebook.com';
 
 //add an element
 //1. buat element baru
@@ -42,3 +42,7 @@ let firstH1Element = document.querySelector('h1');
 
 firstH1Element.remove();
 firstH1Element.parentElement.removeChild(firstH1Element); //untuk browser lama
+
+//move element
+
+firstParagraph.parentElement.append(firstParagraph);
