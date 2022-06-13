@@ -5,4 +5,13 @@
 // alert();
 // window.alert();
 
-document.getElementById('external-link');
+
+//mencari DOM dengan memlilih HTML element dengan id hanya satu element
+//untuk mencari spesifik element
+let achorElement = document.getElementById('external-link');
+achorElement.href = 'https://google.com';
+
+//mencari DOM dengan memilih HTML element yang sesuai pertama dengan menggunakan css selector atau html element
+//untuk mencari sesuai kondisi
+anchorElement = document.querySelector('#external-id');
+anchorElement.href = 'https://academind.com';
