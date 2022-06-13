@@ -41,8 +41,14 @@ let firstH1Element = document.querySelector('h1');
 //2. hapus
 
 firstH1Element.remove();
-firstH1Element.parentElement.removeChild(firstH1Element); //untuk browser lama
+//firstH1Element.parentElement.removeChild(firstH1Element); //untuk browser lama
 
 //move element
 
 firstParagraph.parentElement.append(firstParagraph);
+
+//innerHTML memberikan akses ke semua content di HTML element
+
+console.log(firstParagraph.innerHTML);
+
+firstParagraph.innerHTML = 'Hi! This is <strong>important!</strong>'
