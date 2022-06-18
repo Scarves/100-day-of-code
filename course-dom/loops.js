@@ -14,3 +14,14 @@ for (const user of users){
 // for (let i = 0; i < someArray.length; i++) {
 //     console.log(someArray[i]);
 // }
+
+const loggedInUser = {
+    name: 'Alfi',
+    age: 24,
+    isAdmin: true
+};
+
+for (const propertyName in loggedInUser){
+    console.log(propertyName);
+    console.log(loggedInUser[propertyName]);
+}
