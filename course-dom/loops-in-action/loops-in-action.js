@@ -1,4 +1,4 @@
-// contoh pertama : menjumlahkan angka
+// latihan pertama : menjumlahkan angka
 
 const calculateSumButtonElement = document.querySelector('#calculator button');
 
@@ -21,3 +21,17 @@ function calculateSum(){
 }
 
 calculateSumButtonElement.addEventListener('click', calculateSum);
+
+// latihan kedua: highlight link
+
+const highLinksButtonElement = document.querySelector('#highlight-links button');
+
+function highLightLinks() {
+    const archorElements = document.querySelectorAll('#highlight-links a'); //return all the matching element
+
+    for (const archorElement of archorElements) {
+        archorElement.classList.add('highlight');
+    }
+}
+
+highLinksButtonElement.addEventListener('click', highLightLinks);
