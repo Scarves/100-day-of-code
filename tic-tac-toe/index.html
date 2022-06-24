@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic Tac Toe</title>
+  </head>
+  <body>
+    <header>
+      <h1>Main Tic, Tac, Toe</h1>
+      <p>
+        Dibuat dengan HTML, CSS, JavaScript dan penuh dengan kasih sayang :p
+      </p>
+    </header>
+    <main>
+      <aside>
+        <h2>Masukan nama kamu</h2>
+        <form>
+          <div>
+            <label for="playername">Nama Pemain</label>
+            <input type="text" name="username" id="playername" />
+          </div>
+          <div>
+            <button type="button">Cancel</button>
+            <button type="submit">Confirm</button>
+          </div>
+        </form>
+      </aside>
+
+      <section id="game-configuration">
+        <ol>
+          <li>
+            <article>
+              <h2>Pemain 1</h2>
+              <h3>NAMA PEMAIN</h3>
+              <p>X</p>
+              <button>Edit</button>
+            </article>
+          </li>
+          <li>
+            <article>
+              <h2>Pemain 2</h2>
+              <h3>NAMA PEMAIN</h3>
+              <p>O</p>
+              <button>Edit</button>
+            </article>
+          </li>
+        </ol>
+        <button>Mulai Game Baru</button>
+      </section>
+
+      <section id="active-game"></section>
+      <article>
+        <h3>Kamu Menang, <span id="winner-name">NAMA PEMAIN</span>!</h3>
+        <p>Klik "Mulai Game" di atas, untuk memulai game!</p>
+      </article>
+
+      <p>
+        Sekarang giliran kamu<span id="active-player-name">NAMA PEMAIN</span>!
+      </p>
+      <ol>
+        <li></li>
+        <li></li>
+        <li></li>
+
+        <li></li>
+        <li></li>
+        <li></li>
+
+        <li></li>
+        <li></li>
+        <li></li>
+      </ol>
+    </main>
+    <footer></footer>
+  </body>
+</html>
