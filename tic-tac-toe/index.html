@@ -12,9 +12,12 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/overlays.css">
+    <link rel="stylesheet" href="styles/configuration.css">
   </head>
 
   <body>
+    <div id="backdrop"></div>
     <header id="main-header">
       <h1>Main Tic, Tac, Toe</h1>
       <p>
@@ -24,10 +27,10 @@
 
     <main>
 
-      <aside>
+      <aside class="modal" id="config-overlay">
         <h2>Masukan nama kamu</h2>
         <form>
-          <div>
+          <div class="form-control">
             <label for="playername">Nama Pemain</label>
             <input type="text" name="username" id="playername" />
           </div>
@@ -44,7 +47,7 @@
             <article>
               <h2>Pemain 1</h2>
               <h3>NAMA PEMAIN</h3>
-              <p>X</p>
+              <p class="player-symbol">X</p>
               <button class="btn btn-alt">Edit</button>
             </article>
           </li>
@@ -52,7 +55,7 @@
             <article>
               <h2>Pemain 2</h2>
               <h3>NAMA PEMAIN</h3>
-              <p>O</p>
+              <p class="player-symbol">O</p>
               <button class="btn btn-alt">Edit</button>
             </article>
           </li>
