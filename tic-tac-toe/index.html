@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="stylesheet" href="styles/overlays.css">
     <link rel="stylesheet" href="styles/configuration.css">
+    <link rel="stylesheet" href="styles/game.css">
   </head>
 
   <body>
@@ -64,25 +65,25 @@
       </section>
 
       <section id="active-game"></section>
-      <article>
-        <h3>Kamu Menang, <span id="winner-name">NAMA PEMAIN</span>!</h3>
+      <article id="game-over">
+        <h2>Kamu Menang, <span id="winner-name">NAMA PEMAIN</span>!</h2>
         <p>Klik "Mulai Game" di atas, untuk memulai game!</p>
       </article>
 
       <p>
-        Sekarang giliran kamu<span id="active-player-name">NAMA PEMAIN</span>!
+        Sekarang giliran kamu<span id="active-player-name"> NAMA PEMAIN</span>!
       </p>
-      <ol>
+      <ol id="game-board">
+        <li class="disabled">x</li>
         <li></li>
+        <li class="disabled">o</li>
+
         <li></li>
+        <li>o</li>
         <li></li>
 
         <li></li>
-        <li></li>
-        <li></li>
-
-        <li></li>
-        <li></li>
+        <li>x</li>
         <li></li>
       </ol>
     </main>
