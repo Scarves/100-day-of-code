@@ -6,7 +6,6 @@ function startNewGame() {
 
     activePlayerNameElement.textContent = players[activePlayer].name;
     gameAreaElement.style.display = 'block';
-
 }
 
 function switchPlayer() {
@@ -23,7 +22,21 @@ function selectedGameField(event) {
         return;
     }
     
-    event.target.textContent = players[activePlayer].symbol; //player[0]
-    event.target.classList.add('disabled');
+    const selectedField = event.target;
+    const selectedColumn = selectedField.dataset.col - 1;
+    const selectedRow = selectedField.dataset.row -1;
+
+    if (gameData[selectedRow][selectedColumn] > 0) {
+        alert ('Tolong pilih tempat yang kosong!');
+        return;
+    }
+    
+    selectedField.textContent = players[activePlayer].symbol; //player[0]
+    selectedField.classList.add('disabled');
+
+
+    gameData[selectedRow][selectedColumn] = activePlayer + 1;
+    
+
     switchPlayer();
 }
